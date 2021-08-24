@@ -11334,6 +11334,7 @@ body::-webkit-scrollbar{width:3px !important;}
 body::-webkit-scrollbar-track{-webkit-box-shadow:#006908 !important;}
 body::-webkit-scrollbar-thumb{background-color: #000 !important; border-radius: 10px;}
 
+.pad-0{padding: 0px;}
 legend.scheduler-border {
     width:inherit; /* Or auto */
     padding:0 10px; /* To give a bit of padding on the left and right */

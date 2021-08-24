@@ -9,7 +9,7 @@
     <section class="resume-section" id="about">
         <div class="resume-section-content">
             <h1 class="mb-0">
-                Place An
+                Place Your
                 <span class="text-primary">Order</span>
             </h1>
             <hr class="myline" />
@@ -48,15 +48,13 @@
 
     <section class="resume-section" id="Your_Bussiness_Legal_Companion">
         <div class="resume-section-content">
-            <h3 class="mb-5">Your Bussiness Legal Companion</h3>
+            <h3 class="mb-5">Your Business Legal Companion</h3>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5">
-                        <center>
-                            <img src="{{ asset('images/Your_Bussiness_Legal_Companion/book11.jpg') }}" alt="Book 1" class="img img-thumbnail books_parent">
-                        </center>
+                        <img src="{{ asset('images/Your_Bussiness_Legal_Companion/book11.jpg') }}" alt="Book 1" class="img img-thumbnail books_parent">
                         <br/>
-                        <div class="container-fluid">
+                        <div class="container-fluid pad-0">
                             <div class="row">
                                 <div class="col-md-4">
                                     <img src="{{ asset('images/Your_Bussiness_Legal_Companion/book1.jpg') }}" alt="Book 1" class="img img-thumbnail books_child">
@@ -165,20 +163,21 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5">
-                        <center>
-                            <img src="{{ asset('images/Your_Business_And_The_Law/book1.jpg') }}" alt="Book 1" class="img img-thumbnail books_parent">
-                        </center>
+                        <img src="{{ asset('images/Your_Business_And_The_Law/book1.jpg') }}" alt="Book 1" class="img img-thumbnail books_parent">
                         <br/>
-                        <div class="container-fluid">
+                        <div class="container-fluid pad-0">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
+                                    <img src="{{ asset('images/Your_Business_And_The_Law/book3.jpg') }}" alt="Book 1" class="img img-thumbnail books_child" style="object-fit: contain;">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="{{ asset('images/Your_Business_And_The_Law/book4.jpg') }}" alt="Book 1" class="img img-thumbnail books_child" style="object-fit: contain;">
+                                </div>
+                                <div class="col-md-6">
                                     <img src="{{ asset('images/Your_Business_And_The_Law/book1.jpg') }}" alt="Book 1" class="img img-thumbnail books_child">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <img src="{{ asset('images/Your_Business_And_The_Law/book2.jpg') }}" alt="Book 1" class="img img-thumbnail books_child">
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="{{ asset('images/Your_Business_And_The_Law/book3.jpg') }}" alt="Book 1" class="img img-thumbnail books_child">
                                 </div>
                             </div>
                         </div>
@@ -281,11 +280,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5">
-                        <center>
-                            <img src="{{ asset('images/all_books.png') }}" alt="Book 1" class="img img-thumbnail books_parent">
-                        </center>
+                        <img src="{{ asset('images/all_books.png') }}" alt="Book 1" class="img img-thumbnail books_parent">
                         <br/>
-                        <div class="container-fluid">
+                        <div class="container-fluid pad-0">
                             <div class="row">
                                 <div class="col-md-3">
                                     <img src="{{ asset('images/Your_Business_And_The_Law/book1.jpg') }}" alt="Book 1" class="img img-thumbnail books_child">
