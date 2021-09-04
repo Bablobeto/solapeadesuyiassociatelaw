@@ -226,7 +226,7 @@ trait paymentTrait {
         }
 
         $tranx = json_decode($response, true); //true:associative array
-        
+
         if(!$tranx)
         {
             print_r('API returned error: Incomplete data object received');
@@ -314,7 +314,7 @@ trait paymentTrait {
     public function paymentsuccess()
     {
         return view('pages.payment.paymentsuccess');
-    }    
+    }
 
     public function paymentfailed()
     {
